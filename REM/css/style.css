@@ -18,3 +18,9 @@ body{
 .row > * {
     border: 3px solid yellow;
 }
+html{
+    font-size: 14px;
+}
+p{
+    font-size: 2rem;
+}
