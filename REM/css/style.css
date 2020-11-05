@@ -24,3 +24,17 @@ html{
 p{
     font-size: 2rem;
 }
+ul li {
+list-style: none;
+border: 1px dotted black;
+
+}
+
+.seccion{
+    height: 150px;
+    border: 1px solid pink;
+}  
+
+nav{
+    border: solid 1px white;
+}

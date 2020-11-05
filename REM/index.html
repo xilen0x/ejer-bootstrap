@@ -6,11 +6,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/style.css">
-    <title>Sistema de Grilla</title>
+    <title>Ejemplos de bootstrap</title>
 </head>
 
 <body>
     <div class="container">
+        <nav>
+            <!-- lista de navegación utilizando flexbox para alinear menus horizontal% y flex-fill para q los li ocupen todo el espacio-->
+            <ul class="d-sm-flex justify-content-between">
+                <li class="flex-fill">Inicio</li>
+                <li class="flex-fill">Servicios</li>
+                <li class="flex-fill">Planes</li>
+                <li class="flex-fill">Quienes Somos</li>
+                <li class="flex-fill">Contacto</li>
+            </ul>
+        </nav>
+        <!-- alineacion de itemes horizontal y verticalmente con flexbox -->
+        <section class="seccion d-flex justify-content-center align-items-center">
+            <div class="item1">Col 1</div>
+            <div class="item2">Col 2</div>
+            <div class="item3">Col 3</div>
+            <div class="item4">Col 4</div>
+            <div class="item5">Col 5</div>
+            <div class="item6">Col 6</div>
+        </section>
+        <br>
         <div class="row">
             <div class="col-4 col-sm-2 col-md-4 col-lg-5 col-xl-4">Mido x</div>
             <div class="col-4 col-sm-4 col-md-4 col-lg-5 col-xl-4">Mido x</div>
@@ -65,7 +85,32 @@
         <br>
         <p class="text-light">Lorem ipsum dolor sit amet consectetur
             adipisicing elit.</p>
+
+        <br>
+        <p class="bg-white text-danger m-5">Párrafo utilizando la propiedad margin4 m-4, la cual aplica margenes de
+            igual tamaño a todos los lados.</p>
+
+
+        <!-- propiedad border -->
+        <p class="border-left p-4">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio sint similique magni. Deserunt ducimus
+            dicta optio placeat assu.</p>
+        <p class="m-2 p-2 border border-success rounded">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero
+            temporibus quis vo</p>
+        <br>
+        <!-- propiedad shadow -->
+        <p class="border p-4 shadow-lg">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio sint similique magni. Deserunt ducimus
+            dicta optio placeat assu.</p>
+        <p class="border p-4 shadow-md">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio sint similique magni. Deserunt ducimus
+            dicta optio placeat assu.</p>
+        <p class="border p-4 shadow">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio sint similique magni. Deserunt ducimus
+            dicta optio placeat assu.</p>
+
     </div>
+
 
     <script src="./js/bootstrap.min.js"></script>
     <script src="./js/jquery-3.3.1.min.js"></script>
