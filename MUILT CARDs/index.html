@@ -6,24 +6,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/style.css">
-    <title>Trabajo con Cards</title>
+    <title>Trabajo con Multiples Cards</title>
 </head>
 
 <body>
-<!-- TARJETA CON BOTON QUE DESPPLIEGA CONTENIDO - DOS BOTONES QE REALIZAN LA MISMA ACCION, REALIZADOS DE MANERA DISTINTA-->
-<!-- Uso de: data-toggle, data-target y aria-expanded-->
+    <!-- TARJETA CON BOTON QUE DESPPLIEGA CONTENIDO - DOS BOTONES QE REALIZAN LA MISMA ACCION, REALIZADOS DE MANERA DISTINTA-->
+    <!-- Uso de: data-toggle, data-target y aria-expanded-->
     <section class="container">
         <div class="row p-4 justify-content-center">
-            <article class="col-sm-8">
+            <article class="col-md-4">
                 <div class="border rounded shadow p-4 text-center">
-                    <h2>Soy un Card</h2>
+                    <h2>Soy un Card de varias</h2>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, autem. Animi iure sit, dolore
                         quis eius, rem doloremque, deleniti minus dolores obcaecati modi quasi blanditiis itaque quam
                         facere ipsa iste!
                     </p>
-                    <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#objetivo"
-                        aria-expanded="false">Ver más</button>
-
+                    <button type="button" class="btn btn-primary btn-block" data-toggle="collapse"
+                        data-target="#objetivo" aria-expanded="false">Ver más</button>
 
                     <div class="collapse" id="objetivo">
                         <div class="my-3 p-3 rounded bg-warning">
@@ -35,13 +34,30 @@
                                 <li>Paso 4</li>
                             </ol>
                         </div>
-                        <a role="button" href="#objetivo" class="btn btn-outline-secondary" data-toggle="collapse" aria-expanded="true">Cerrar</a>
+                        <a role="button" href="#objetivo" class="btn btn-outline-secondary" data-toggle="collapse"
+                            aria-expanded="true">Cerrar</a>
                     </div>
-
                 </div>
+            </article>
+            <article class="col-md-4 mt-4">
+                <div class="border rounded shadow p-4 text-center">
+                    <h2>Segundo card</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, minus facilis, similique in culpa
+                        officiis sint vero, aliquid harum laudantium porro id suscipit architecto deleniti voluptatibus
+                        reiciendis laborum inventore. Commodi.</p>
+                        <a href="#" class="btn btn-success btn-block">Enlace</a>
+                </div>
+            </article>
+            <article class="col-md-4 mt-4">
+                <div class="border rounded shadow p-4 text-center">
+                    <h2>Tercer card</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, minus facilis, similique in culpa
+                        officiis sint vero, aliquid harum laudantium porro id suscipit architecto deleniti voluptatibus
+                        reiciendis laborum inventore. Commodi.</p>
+                        <a href="#" class="btn btn-danger btn-block">Enlace</a>
+                </div>
+            </article>
         </div>
-        </article>
-
     </section>
 
 
