@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Trabajo con Navbar</title>
+</head>
+
+<body>
+    <!-- navbar : para inicializar
+         navbar-dark : texto/enlaces en color claro(coherente con un fondo obscuro)
+         bg-dark : fondo oscuro.
+    -->
+    <nav class="navbar navbar-dark bg-dark">
+        <a href="#" class="navbar-brand">Astorga & Martínez</a>
+    </nav>
+
+    <br>
+
+    <nav class="navbar navbar-light bg-light border">
+        <a href="#" class="navbar-brand">Astorga & Martínez</a>
+    </nav>
+    <br>
+    <!-- Navbar en container y con tamaño mayor de texto-->
+    <div class="container">
+        <nav class="navbar navbar-dark bg-dark">
+            <a href="#" class="navbar-brand"><span class="h3">Astorga & Martínez</span></a>
+        </nav>
+        <br>
+ 
+        <!-- Con imagen como logo -->
+        <nav class="navbar navbar-dark bg-dark navbar-expand-md">
+            <a href="#" class="navbar-brand">
+                <img src="./images/logo.png" alt="logo empresa" width="200" height="auto">
+            </a>
+            <!-- MENU COLAPSADO (BOTÓN)-->
+            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#menu-principal"
+                aria-controls="menu-principal" aria-expanded="false" aria-label="Desplegar menú principal">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- MENU COLAPSADO (MENÚ)-->
+            <div class="collapse navbar-collapse" id="menu-principal">
+                <ul class="navbar-nav ml-auto"> <!-- La clase navbar-nav elimina viñetas y le da el estilo del navbar. La clase ml-auto envía al menu a la derecha.-->
+                    <li class="nav-item"><a href="#" class="nav-link active">Activo</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Servicios</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link disabled">Desabilitado</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Contacto</a></li>
+                </ul>
+            </div>
+
+        </nav>
+
+
+    </div>
+
+
+
+
+
+    <script src="./js/jquery-3.3.1.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/popper.min.js"></script>
+</body>
+
+</html>
