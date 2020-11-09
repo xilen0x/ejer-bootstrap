@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/x-icon" href="./images/favicon.ico">
     <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/style.css">
     <title>Carlos Portfolio</title>
@@ -12,24 +13,120 @@
 <body>
     <!-- Navbar -->
     <nav class="navbar navbar-dark bg-dark navbar-expand-md">
-       <div class="container">
-        <a href="#" class="navbar-brand">Carlos Astorga <strong style="font-size: x-large;">{ Portfolio }</strong></a>
-        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#menu-1"
-         aria-controls="menu-1" aria-expanded="false" aria-label="Principal menu">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+        <div class="container">
+            <a href="#" class="navbar-brand">
+                <img src="./images/eu.jpg" alt="logo" height="50" class="rounded-circle"></a>
+            <a href="#" class="navbar-brand">{ My Portfolio }</a>
+            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#menu-1"
+                aria-controls="menu-1" aria-expanded="false" aria-label="Principal menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-        <div class="collapse navbar-collapse" id="menu-1">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item"><a href="#" class="nav-link">Inicio</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">Acerca de mí</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">Contacto</a></li>
-            </ul>
+            <div class="collapse navbar-collapse" id="menu-1">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a href="#" class="nav-link">Inicio</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Acerca de mí</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Contacto</a></li>
+                </ul>
+            </div>
         </div>
-       </div>
     </nav>
 
-<!-- Jumbotron -->
+    <!-- Jumbotron -->
+    <section class="quien-soy py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-6 text-center">
+                    <img src="./images/desarrollador.svg" alt="" class="img-fluid mb-4 mb-md-0">
+                </div>
+                <div class="col-12 col-md-6 text-center text-md-left align-self-md-center">
+                    <h1 class="display-4 font-weight-bold text-primary">Acerca de</h1>
+                    <p class="parrafo1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora animi commodi doloribus unde
+                        mollitia? Sequi ipsam officiis laboriosam fugiat aliquam tenetur culpa magnam quo sapiente
+                        laudantium! Harum, rem. Debitis, itaque.</p>
+                    <a href="#" class="btn btn-primary btn-lg">Leer más</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION SEGUNDA CON MI FOTO -->
+    <section class="segunda py-4 bg-primary">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center  text-dark">
+                    <img src="./images/eu2.png" width="260" height="auto" alt="avatar"
+                        class="img-fluid rounded-circle my-4">
+                    <p class="h2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga ea, expedita maxime
+                        dolores
+                        architecto fugit adipisci enim, quae minima dolorem corporis eaque nihil cum tempore autem
+                        fugiat saepe unde? Voluptas.</p>
+                    <p class="h4 font-italic">* Carlos Astorga *</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION PROYECTOS -->
+    <section class="proyectos py-4">
+        <div class="container">
+            <h1 class="display-4 font-weight-bold text-center pb-4">Mis proyectos</h1>
+            <div class="row text-md-center">
+                <article class="col-12 col-md-6 col-lg-3">
+                    <div class="card mb-3">
+                        <img src="./images/proyecto1.png" class="card-img-top h-100" alt="Proyecto 1">
+                        <!-- h-100 es para que la imagen no se desproporcione en iexplorer(edge) -->
+                        <div class="card-body">
+                            <h5 class="card-title">Proyecto 1</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </article>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="card mb-3">
+                        <img src="./images/proyecto2.png" class="card-img-top h-100" alt="Proyecto 2">
+                        <!-- h-100 es para que la imagen no se desproporcione en iexplorer(edge) -->
+                        <div class="card-body">
+                            <h5 class="card-title">Proyecto 2</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="card mb-3">
+                        <img src="./images/proyecto3.png" class="card-img-top h-100" alt="Proyecto 3">
+                        <!-- h-100 es para que la imagen no se desproporcione en iexplorer(edge) -->
+                        <div class="card-body">
+                            <h5 class="card-title">Proyecto 3</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="card mb-3">
+                        <img src="./images/proyecto4.png" class="card-img-top h-100" alt="Proyecto 4">
+                        <!-- h-100 es para que la imagen no se desproporcione en iexplorer(edge) -->
+                        <div class="card-body">
+                            <h5 class="card-title">Proyecto 4</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer text-center bg-secondary text-white">
+        <p class="m-0 py-5 ">Design by Carlos Astorga <img src="./images/512px-Copyleft.png" alt="" width="25" class="mr-1">Copyleft 2020</p>
+    </footer>
 
     <script src="./js/jquery-3.3.1.min.js"></script>
     <script src="./js/bootstrap.min.js"></script>

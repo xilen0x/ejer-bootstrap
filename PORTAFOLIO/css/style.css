@@ -1,0 +1,16 @@
+html{
+    font-size: .9rem;
+}
+.parrafo1{
+    font-size: 1.2rem;
+    color: rgb(126, 126, 126);
+}
+
+/* Efecto sombra aplicada a las cards */
+.card:hover{
+box-shadow: 0 0 10px rgb(68, 68, 68);
+}
+
+.bg-primary{
+    background-color: #f0f0f0 !important;
+}
