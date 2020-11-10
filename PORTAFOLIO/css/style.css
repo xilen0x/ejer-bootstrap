@@ -1,16 +1,57 @@
-html{
-    font-size: .9rem;
+/*------------------------------------------ Variables/Selectores globales --------------------------------*/
+:root{
+    --color-primario: #cc001d;
+    --color-secundario: rgb(243, 239, 239);
+    --color-texto:rgb(116, 116, 116);
 }
+body{
+    color: #343a40;
+}
+
+
+/*---------------------------------------------------- Navbar ---------------------------------------------*/
+    .navbar-dark{
+        background-color: var(--color-primario) !important;
+    }
+#menu-1{
+    font-size: 110%;
+    color: white;
+}
+.btn-danger{
+    background-color:var(--color-primario);
+}
+
+/*-------------------------------------------------- Jumbotron  -------------------------------------------*/
 .parrafo1{
     font-size: 1.2rem;
-    color: rgb(126, 126, 126);
+    color: var(--color-texto);
 }
 
+
+/*------------------------------------------- Sección Perfil  ---------------------------------------------*/
+.bg-primary{
+    background-color: var(--color-secundario) !important;
+}
+.bg-primary:hover{
+    background: rgb(230, 230, 230) !important;
+}
+
+/*------------------------------------------ Sección Proyectos  -------------------------------------------*/
 /* Efecto sombra aplicada a las cards */
 .card:hover{
-box-shadow: 0 0 10px rgb(68, 68, 68);
+    box-shadow: 0 0 10px rgb(68, 68, 68);
+    }
+.card{
+    color: var(--color-texto);
 }
 
-.bg-primary{
-    background-color: #f0f0f0 !important;
+/*--------------------------------------------- Sección Footer  -------------------------------------------*/
+.bg-secondary{
+background-color: var(--color-primario) !important;
 }
+
+
+
+
+
+
