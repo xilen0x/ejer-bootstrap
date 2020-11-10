@@ -1,18 +1,19 @@
 /*------------------------------------------ Variables/Selectores globales --------------------------------*/
 :root{
-    --color-primario: #cc001d;
-    --color-secundario: rgb(243, 239, 239);
-    --color-texto:rgb(116, 116, 116);
+    --color-primario: #17071a;
+    --color-secundario: #ffffff;
+    --color-texto:rgb(238, 230, 230);
 }
 body{
     color: #343a40;
+    background-color: #1e1e2e;
 }
 
 
 /*---------------------------------------------------- Navbar ---------------------------------------------*/
-    .navbar-dark{
-        background-color: var(--color-primario) !important;
-    }
+.bg-light{
+    background-color: var(--color-primario) !important;
+   }
 #menu-1{
     font-size: 110%;
     color: white;
@@ -27,22 +28,22 @@ body{
     color: var(--color-texto);
 }
 
-
+/* #c51e1 */
 /*------------------------------------------- Sección Perfil  ---------------------------------------------*/
 .bg-primary{
     background-color: var(--color-secundario) !important;
 }
 .bg-primary:hover{
-    background: rgb(230, 230, 230) !important;
+    background: var(--color-primario)!important;
 }
 
 /*------------------------------------------ Sección Proyectos  -------------------------------------------*/
 /* Efecto sombra aplicada a las cards */
 .card:hover{
-    box-shadow: 0 0 10px rgb(68, 68, 68);
+    box-shadow: 0 0 10px rgb(235, 226, 226);
     }
 .card{
-    color: var(--color-texto);
+    color: rgb(19, 18, 18);
 }
 
 /*--------------------------------------------- Sección Footer  -------------------------------------------*/
