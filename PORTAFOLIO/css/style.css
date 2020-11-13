@@ -1,12 +1,13 @@
 /*------------------------------------------ Variables/Selectores globales --------------------------------*/
 :root{
-    --color-primario: #17071a;
-    --color-secundario: #ffffff;
+    --color-primario: #151515;
+    --color-secundario: #f5f4e9;
+    --color-terceario: #f2f2f2;
     --color-texto:rgb(238, 230, 230);
 }
 body{
     color: #343a40;
-    background-color: #1e1e2e;
+    /* background-color: #1e1e2e; */
 }
 
 
@@ -19,34 +20,51 @@ body{
     color: white;
 }
 .btn-danger{
-    background-color:var(--color-primario);
+    color: #fff;
+    background-color: #e92c00;
+    border-radius: 5px;
+    border-color: #b00;
 }
 
-/*-------------------------------------------------- Jumbotron  -------------------------------------------*/
+.btn-danger:hover {
+    color: #fff;
+    background-color: #c80000;
+    border-color: #b00;
+    border-radius: 5px;
+}
+/*-------------------------------------------------- About  -------------------------------------------*/
 .parrafo1{
     font-size: 1.2rem;
     color: var(--color-texto);
 }
 
-/* #c51e1 */
-/*------------------------------------------- Sección Perfil  ---------------------------------------------*/
+/*------------------------------------------- Section Resume  ---------------------------------------------*/
 .bg-primary{
     background-color: var(--color-secundario) !important;
 }
 .bg-primary:hover{
-    background: var(--color-primario)!important;
-}
+    background: var(--color-terceario)!important;
+} 
 
-/*------------------------------------------ Sección Proyectos  -------------------------------------------*/
+/*------------------------------------------ Section Projects  -------------------------------------------*/
 /* Efecto sombra aplicada a las cards */
 .card:hover{
     box-shadow: 0 0 10px rgb(235, 226, 226);
     }
 .card{
     color: rgb(19, 18, 18);
+    min-height: 650px;
+   
+}
+.card-footer{
+    background-color: white;
 }
 
-/*--------------------------------------------- Sección Footer  -------------------------------------------*/
+section div h1 {
+    color: var(--color-primario);
+}
+
+/*--------------------------------------------- Section Footer  -------------------------------------------*/
 .bg-secondary{
 background-color: var(--color-primario) !important;
 }
