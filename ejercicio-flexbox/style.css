@@ -1,0 +1,75 @@
+/* TRABAJANDO CON FLEXBOX  */
+
+body {
+    background: #000;
+    font-size: 50px;
+}
+
+
+/* flex-direction: column o row - PARA ALINEAR EN COLUMNA O FILA LOS ELEMENTOS*/
+
+article {
+    background: rgb(255, 81, 0);
+    width: 800px;
+    height: 200px;
+    /* <--------- */
+    display: flex;
+    flex-direction: column;
+    /* <--------- */
+    padding: 4px;
+}
+
+section {
+    background: rgb(221, 172, 9);
+    border: 1px solid black;
+    margin: 2px;
+}
+
+
+/* flex-wrap: wrap - PARA ALINEAR AL INICIO, CENTRO O FINAL LOS ELEMENTOS. Este se usa con justify-content: flex-start o flex-end o center o space-between o space-around*/
+
+article2 {
+    background: rgb(201, 12, 84);
+    width: 800px;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    padding: 4px;
+    /* <--------- */
+    flex-wrap: wrap;
+    justify-content: space-around;
+    /* <--------- */
+}
+
+section2 {
+    background: rgb(255, 196, 3);
+    border: 1px solid black;
+    margin: 2px;
+    width: 100px;
+    height: 100px;
+}
+
+
+/*Alineacion en el eje secundario con align-items : center u otros*/
+
+article3 {
+    background: rgb(78, 12, 201);
+    width: 800px;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    padding: 4px;
+    /* <--------- */
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: stretch;
+}
+
+section3 {
+    background: rgb(10, 211, 94);
+    border: 1px solid black;
+    margin: 2px;
+    width: 100px;
+    height: 100px;
+}
