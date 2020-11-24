@@ -1,7 +1,7 @@
 /* TRABAJANDO CON FLEXBOX  */
 
 body {
-    background: #000;
+    background: #fff;
     font-size: 50px;
 }
 
@@ -72,4 +72,38 @@ section3 {
     margin: 2px;
     width: 100px;
     height: 100px;
+}
+
+
+/* flex-grow, flex-shrink (muy poco utilizado) y flex-basis*/
+
+
+/* y para el shotcut se utiliza flex: 1 1 0px por ejemplo.*/
+
+
+/* flex: 1 0px --> flex-grow y flex-basis */
+
+
+/* En el ejemplo abajo, a las 3 secciones se les repartió o asignó el espacio restante en partes iguales*/
+
+article4 {
+    background-color: yellowgreen;
+    width: 1800px;
+    display: flex;
+    border: 1px solid black;
+}
+
+section4a {
+    background: tomato;
+    flex: 1 0px;
+}
+
+section4b {
+    background: rgb(12, 158, 216);
+    flex: 1 0px;
+}
+
+section4c {
+    background: rgb(133, 14, 202);
+    flex: 1 0px;
 }
